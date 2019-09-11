@@ -1,0 +1,212 @@
+scavhunter
+{
+	"base"		"base"
+	"title"		"Scavenger Hunter"
+	"maps"		"scav_"
+	"menusystem"	"1"
+	"workshopid"	""
+	
+	"settings"
+	{
+		
+		1
+		{
+			"name"		"scav_teamgame"
+			"text"		"Team Game"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		2
+		{
+			"name"		"scav_difflists"
+			"text"		"Teams Have Unique List"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		3
+		{
+			"name"		"scav_teambalance"
+			"text"		"Keep Teams Balanced"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		4
+		{
+			"name"		"scav_friendlyfire"
+			"text"		"Allow Friendly Fire"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		
+		5
+		{
+			"name"		"scav_teamshares"
+			"text"		"Team Gets All Points"
+			"type"		"CheckBox"
+			"default"	"1"
+		}
+		
+		6
+		{
+			"name"		"scav_maxrounds"
+			"text"		"Max Rounds per Map"
+			"type"		"Numeric"
+			"default"	"12"
+		}
+		
+		7
+		{
+			"name"		"scav_skilldiff"
+			"text"		"Skill Difference"
+			"type"		"Numeric"
+			"default"	"25"
+		}
+		
+		8
+		{
+			"name"		"scav_roundprep"
+			"text"		"Prepare Time"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+		
+		9
+		{
+			"name"		"scav_roundbreak"
+			"text"		"Intermission Time"
+			"type"		"Numeric"
+			"default"	"6"
+		}
+		
+		10
+		{
+			"name"		"scav_roundtime"
+			"text"		"Round Time Limit"
+			"type"		"Numeric"
+			"default"	"300"
+		}	
+		
+		11
+		{
+			"name"		"scav_scorecollect"
+			"text"		"Points Award: Found"
+			"type"		"Numeric"
+			"default"	"1"
+		}
+		
+		12
+		{
+			"name"		"scav_scoreteam"
+			"text"		"Points Award: Team Win"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+		
+		13
+		{
+			"name"		"scav_scorewin"
+			"text"		"Points Award: Win"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+		
+		14
+		{
+			"name"		"scav_scorelose"
+			"text"		"Points Award: Lost"
+			"type"		"Numeric"
+			"default"	"0"
+		}
+		
+		15
+		{
+			"name"		"scav_scorekill"
+			"text"		"Points Award: Kill"
+			"type"		"Numeric"
+			"default"	"1"
+		}
+		
+		16
+		{
+			"name"		"scav_scoredeath"
+			"text"		"Points Award: Died"
+			"type"		"Numeric"
+			"default"	"0"
+		}
+		
+		17
+		{
+			"name"		"scav_scoresuicide"
+			"text"		"Points Award: Suicide"
+			"type"		"Numeric"
+			"default"	"-1"
+		}
+		
+		18
+		{
+			"name"		"scav_findcount"
+			"text"		"Props to Find"
+			"type"		"Numeric"
+			"default"	"12"
+		}
+		
+		19
+		{
+			"name"		"scav_maxtime"
+			"text"		"Map Time (minutes)"
+			"type"		"Numeric"
+			"default"	"60"
+		}
+		
+		20
+		{
+			"name"		"scav_paytimer"
+			"text"		"Seconds Between Pay"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+		
+		21
+		{
+			"name"		"scav_payalive"
+			"text"		"Pay: Survived"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+		
+		22
+		{
+			"name"		"scav_paywin"
+			"text"		"Pay: Win"
+			"type"		"Numeric"
+			"default"	"50"
+		}
+		
+		23
+		{
+			"name"		"scav_payteam"
+			"text"		"Pay: Team Win"
+			"type"		"Numeric"
+			"default"	"25"
+		}
+		
+		24
+		{
+			"name"		"scav_paylose"
+			"text"		"Pay: Lost"
+			"type"		"Numeric"
+			"default"	"25"
+		}
+		
+		25
+		{
+			"name"		"scav_paymax"
+			"text"		"Max Credits"
+			"type"		"Numeric"
+			"default"	"500"
+		}
+	}
+}
